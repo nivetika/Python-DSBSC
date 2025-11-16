@@ -31,11 +31,11 @@ The general form of the DSBSC signal is:
 ```
 import numpy as np
   import matplotlib.pyplot as plt
-  Am=4.3
-  fm=466
-  fs=46600
-  Ac=8.6
-  fc=4660
+  Am=2.9
+  fm=260
+  fs=26000
+  Ac=5.8
+  fc=2600
   t=np.arange(0,2/fm,1/fs)
   m=Am*np.cos(2*np.pi*fm*t)
   plt.subplot(3,1,1)
@@ -53,8 +53,11 @@ import numpy as np
 ```
 ## Output Waveform
 
+<img width="765" height="584" alt="image" src="https://github.com/user-attachments/assets/c146dae7-e7b9-4dbb-af98-be790d3ea7ce" />
 
 ## Tabular Column
+
+![WhatsApp Image 2025-11-16 at 11 07 25_ad95c898](https://github.com/user-attachments/assets/81ef6538-1376-4e14-9751-0854bda10d9f)
 
 
 ## Result
